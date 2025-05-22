@@ -43,7 +43,7 @@ def parse_arguments():
     # Add model name override
     parser.add_argument(
         "-m", "--model",
-        help="Model name (default: llama2 for Ollama, local-model for LM Studio)"
+        help="Model name (default: gemma3 for Ollama, local-model for LM Studio)"
     )
     # Add custom server URL
     parser.add_argument(
